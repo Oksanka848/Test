@@ -10,4 +10,4 @@ function component() {
   element.appendChild(myIcon);
   return element;
 }
-document.body.appendChild(component());
+document.body.appendChild(component());//1:16:36
