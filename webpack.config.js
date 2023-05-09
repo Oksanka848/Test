@@ -8,8 +8,7 @@ module.exports = {
     title: 'Development',
     }),
   ],
-  
-  devtool: 'inline-source-map',
+    devtool: 'inline-source-map',
   devServer: {
     static: './dist',
   },
@@ -19,11 +18,8 @@ module.exports = {
     clean: true,
     chunkFilename: '[id].[chunkhash].js'
   },
-  
-  optimization: {
-
+    optimization: {
     runtimeChunk: 'single',
-
   },
   module: {
     rules: [
@@ -44,6 +40,5 @@ module.exports = {
         type: 'asset/resource',
       },
     ],
-    
-  },
+      },
 };
