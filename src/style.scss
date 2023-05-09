@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+.hello {
+  color: hsl(194, 100%, 50%);
+  background: url('./avatars.jpg');
+  font-family: 'MyFont';
+}
